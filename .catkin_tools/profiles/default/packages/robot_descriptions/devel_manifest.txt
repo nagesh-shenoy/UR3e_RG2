@@ -1,0 +1,5 @@
+robot_descriptions
+/home/nash/ur3erg2_ws/devel/.private/robot_descriptions/cmake.lock /home/nash/ur3erg2_ws/devel/./cmake.lock
+/home/nash/ur3erg2_ws/devel/.private/robot_descriptions/lib/pkgconfig/robot_descriptions.pc /home/nash/ur3erg2_ws/devel/lib/pkgconfig/robot_descriptions.pc
+/home/nash/ur3erg2_ws/devel/.private/robot_descriptions/share/robot_descriptions/cmake/robot_descriptionsConfig.cmake /home/nash/ur3erg2_ws/devel/share/robot_descriptions/cmake/robot_descriptionsConfig.cmake
+/home/nash/ur3erg2_ws/devel/.private/robot_descriptions/share/robot_descriptions/cmake/robot_descriptionsConfig-version.cmake /home/nash/ur3erg2_ws/devel/share/robot_descriptions/cmake/robot_descriptionsConfig-version.cmake

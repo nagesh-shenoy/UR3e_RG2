@@ -1,0 +1,8 @@
+prefix=/home/nash/ur3erg2_ws/devel/.private/robot_descriptions
+
+Name: robot_descriptions
+Description: Description of robot_descriptions
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- from ur_moder_driver ur5_bringup.launch -->
+  <!-- robot_ip: IP-address of the robot's socket-messaging server -->
+  <arg name="robot_ip" default="192.168.0.100"/>
+  <arg name="config" default="true"/>
+  <arg name="limited" default="false"/>
+  <arg name="min_payload"  default="0.0"/>
+  <arg name="max_payload"  default="3.0"/>
+  <arg name="prefix" default="" />
+  <arg name="reverse_port" default="50001" doc="Port that will be opened by the driver to allow direct communication between the driver and the robot controller."/>
+  <arg name="script_sender_port" default="50002" doc="The driver will offer an interface to receive the program's URScript on this port. If the robot cannot connect to this port, `External Control` will stop immediately."/>
+  <arg name="trajectory_port" default="50003" doc="Port that will be opened by the driver to allow trajectory forwarding."/>
+  <arg name="script_command_port" default="50004" doc="Port that will be opened by the driver to allow forwarding script commands to the robot."/>
+  <arg name="tool_tcp_port" default="54321" doc="Port on which the robot controller publishes the tool comm interface. Only used, when `use_tool_communication` is set to true."/>
+
+  <!-- from universal_robot/ur_description/launch/ur10_upload.launch -->
+  <!-- robot model -->
+  <include file="$(find robot_descriptions)/launch/ur3e_upload.launch">
+    <arg name="limited" value="$(arg limited)"/>
+  </include>
+
+  <!-- ur common -->
+  <include file ="$(find ur_modern_driver)/launch/ur_common.launch">
+    <arg name="prefix"  value="$(arg prefix)" />
+    <arg name="robot_ip" value="$(arg robot_ip)"/>
+    <arg name="min_payload"  value="$(arg min_payload)"/>
+    <arg name="max_payload"  value="$(arg max_payload)"/>
+  </include>
+
+
+  <!--include file="$(find ur10_rg2_moveit_config)/launch/ur10_moveit_planning_execution.launch"/-->
+
+  <!--node name="ur5_control_server" pkg="ur5_control" type="rg2_server_node.py" /-->
+
+</launch>

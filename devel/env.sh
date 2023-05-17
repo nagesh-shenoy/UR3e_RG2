@@ -1,0 +1,1 @@
+/home/nash/ur3erg2_ws/devel/.private/catkin_tools_prebuild/env.sh

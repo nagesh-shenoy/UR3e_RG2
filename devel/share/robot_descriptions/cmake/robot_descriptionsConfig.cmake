@@ -1,0 +1,1 @@
+/home/nash/ur3erg2_ws/devel/.private/robot_descriptions/share/robot_descriptions/cmake/robot_descriptionsConfig.cmake

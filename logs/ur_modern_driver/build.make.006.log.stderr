@@ -1,0 +1,13 @@
+[01m[K/home/nash/ur3erg2_ws/src/ur_modern_driver/src/ur_ros_wrapper.cpp:[m[K In member function ‘[01m[Kbool RosWrapper::setPayload(ur_msgs::SetPayloadRequest&, ur_msgs::SetPayloadResponse&)[m[K’:
+[01m[K/home/nash/ur3erg2_ws/src/ur_modern_driver/src/ur_ros_wrapper.cpp:421:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kur_msgs::SetPayloadRequest_<std::allocator<void> >::_center_of_gravity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::Vector3_<std::allocator<void> >[m[K’} to ‘[01m[Kdouble[m[K’
+  421 |   if (robot_.setPayload([01;31m[Kreq.center_of_gravity[m[K))
+      |                         [01;31m[K~~~~^~~~~~~~~~~~~~~~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Kur_msgs::SetPayloadRequest_<std::allocator<void> >::_center_of_gravity_type {aka geometry_msgs::Vector3_<std::allocator<void> >}[m[K
+In file included from [01m[K/home/nash/ur3erg2_ws/src/ur_modern_driver/src/ur_ros_wrapper.cpp:19[m[K:
+[01m[K/home/nash/ur3erg2_ws/src/ur_modern_driver/include/ur_modern_driver/ur_driver.h:92:25:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool UrDriver::setPayload(double)[m[K’
+   92 |  bool setPayload([01;36m[Kdouble m[m[K);
+      |                  [01;36m[K~~~~~~~^[m[K
+make[2]: *** [CMakeFiles/ur_driver.dir/build.make:63: CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1956: CMakeFiles/ur_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

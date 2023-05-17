@@ -1,0 +1,7 @@
+[01m[K/home/nash/ur3erg2_ws/src/ur_modern_driver/src/ur_ros_wrapper.cpp:[m[K In member function ‘[01m[Kbool RosWrapper::setPayload(ur_msgs::SetPayloadRequest&, ur_msgs::SetPayloadResponse&)[m[K’:
+[01m[K/home/nash/ur3erg2_ws/src/ur_modern_driver/src/ur_ros_wrapper.cpp:421:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kur_msgs::SetPayloadRequest[m[K’ {aka ‘[01m[Kstruct ur_msgs::SetPayloadRequest_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpayload[m[K’
+  421 |   if (robot_.setPayload(req.[01;31m[Kpayload[m[K))
+      |                             [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur_driver.dir/build.make:63: CMakeFiles/ur_driver.dir/src/ur_ros_wrapper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1956: CMakeFiles/ur_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

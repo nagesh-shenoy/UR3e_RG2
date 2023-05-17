@@ -1,0 +1,5 @@
+Symlinking /home/nash/ur3erg2_ws/devel/lib/libur_hardware_interface.so
+Symlinking /home/nash/ur3erg2_ws/devel/lib/ur_modern_driver/ur_driver
+Symlinking /home/nash/ur3erg2_ws/devel/lib/pkgconfig/ur_modern_driver.pc
+Symlinking /home/nash/ur3erg2_ws/devel/share/ur_modern_driver/cmake/ur_modern_driverConfig-version.cmake
+Symlinking /home/nash/ur3erg2_ws/devel/share/ur_modern_driver/cmake/ur_modern_driverConfig.cmake

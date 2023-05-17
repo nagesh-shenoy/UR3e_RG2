@@ -1,0 +1,1 @@
+/home/nash/ur3erg2_ws/devel/.private/ur_control/lib/python3/dist-packages/ur_control/srv/__init__.py

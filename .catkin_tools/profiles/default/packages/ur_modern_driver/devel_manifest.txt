@@ -1,0 +1,7 @@
+ur_modern_driver
+/home/nash/ur3erg2_ws/devel/.private/ur_modern_driver/cmake.lock /home/nash/ur3erg2_ws/devel/./cmake.lock
+/home/nash/ur3erg2_ws/devel/.private/ur_modern_driver/lib/libur_hardware_interface.so /home/nash/ur3erg2_ws/devel/lib/libur_hardware_interface.so
+/home/nash/ur3erg2_ws/devel/.private/ur_modern_driver/lib/ur_modern_driver/ur_driver /home/nash/ur3erg2_ws/devel/lib/ur_modern_driver/ur_driver
+/home/nash/ur3erg2_ws/devel/.private/ur_modern_driver/lib/pkgconfig/ur_modern_driver.pc /home/nash/ur3erg2_ws/devel/lib/pkgconfig/ur_modern_driver.pc
+/home/nash/ur3erg2_ws/devel/.private/ur_modern_driver/share/ur_modern_driver/cmake/ur_modern_driverConfig-version.cmake /home/nash/ur3erg2_ws/devel/share/ur_modern_driver/cmake/ur_modern_driverConfig-version.cmake
+/home/nash/ur3erg2_ws/devel/.private/ur_modern_driver/share/ur_modern_driver/cmake/ur_modern_driverConfig.cmake /home/nash/ur3erg2_ws/devel/share/ur_modern_driver/cmake/ur_modern_driverConfig.cmake

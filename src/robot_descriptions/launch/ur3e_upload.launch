@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="limited" default="false"/>
+
+  <param unless="$(arg limited)" name="robot_description" textfile="$(find robot_descriptions)/description/ur3e_rg2.urdf"/>
+
+</launch>
